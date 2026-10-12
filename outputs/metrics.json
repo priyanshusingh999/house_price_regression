@@ -1,0 +1,29 @@
+{
+  "data_cleaning": {
+    "rows_raw": 20640,
+    "missing_values": {
+      "total_bedrooms": 207
+    },
+    "capped_target_rows_removed": 965,
+    "rows_clean": 19675
+  },
+  "train_rows": 15740,
+  "test_rows": 3935,
+  "baseline_predict_the_mean": {
+    "RMSE": 99865.12238813864,
+    "MAE": 80134.50683747492,
+    "R2": -0.00020628393550325974
+  },
+  "linear_regression_test": {
+    "RMSE": 59417.84964729495,
+    "MAE": 44012.8902754034,
+    "R2": 0.6459245934083365
+  },
+  "linear_regression_train": {
+    "RMSE": 58403.090711817975,
+    "MAE": 42585.1439037774,
+    "R2": 0.6386988631690015
+  },
+  "cv_r2_5fold_mean": 0.6312103419308113,
+  "cv_r2_5fold_std": 0.015074392178238331
+}
